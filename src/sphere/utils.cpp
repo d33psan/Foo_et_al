@@ -1,3 +1,4 @@
+//Utility functions for the sphere calculations.
 #include <stdexcept>
 #include "foo.h"
 void foo::sphere::validate_rad(double rad) {
