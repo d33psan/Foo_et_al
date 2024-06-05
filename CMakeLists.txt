@@ -3,4 +3,6 @@ project(Foo_et_al)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(Foo_et_al main.cpp)
+include_directories(include)
+
+add_executable(Foo_et_al src/main.cpp src/foo.cpp)
