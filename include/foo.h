@@ -5,6 +5,7 @@ namespace foo {
 class sphere {
     public:
     double static vol(double rad);
+    void static validate_rad(double rad);
 };
 
 }

@@ -4,8 +4,7 @@
 
 namespace foo{
     double sphere::vol(double rad) {
-        if (rad <= 0)
-            throw std::invalid_argument("Radius should be positive");
+        validate_rad(rad);
         return (4.0/3.0)*M_PI*pow(rad,3);
     }
 }
