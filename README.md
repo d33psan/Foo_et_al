@@ -32,3 +32,9 @@ This assumes you have cmake installed. If you do not have it, please download an
 ```sh
 ./Foo_et_al
 ```
+
+## Running Unit Tests
+
+```sh
+ctest
+```
