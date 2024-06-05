@@ -32,8 +32,9 @@
 *.out
 *.app
 
-### CMake template
 cmake-build-debug
+
+### CMake template
 CMakeLists.txt.user
 CMakeCache.txt
 CMakeFiles
